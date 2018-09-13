@@ -1,0 +1,6 @@
+[package]
+name = "timed_cache"
+version = "0.1.0"
+authors = ["Zac Winter <plasticcaz@gmail.com>"]
+
+[dependencies]
