@@ -1,6 +1,6 @@
 [package]
 name = "timed_cache"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Zac Winter <plasticcaz@gmail.com>"]
 license ="MIT"
 description = "An implementation of a cache that will regenerate a value if accessed after a certain amount of time."
