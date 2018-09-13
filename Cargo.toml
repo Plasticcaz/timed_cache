@@ -5,5 +5,7 @@ authors = ["Zac Winter <plasticcaz@gmail.com>"]
 license ="MIT"
 description = "An implementation of a cache that will regenerate a value if accessed after a certain amount of time."
 keywords = ["cache", "timed", "sessions"]
+repository="https://github.com/Plasticcaz/timed_cache"
+readme="README.md"
 
 [dependencies]
