@@ -4,6 +4,6 @@ version = "0.1.0"
 authors = ["Zac Winter <plasticcaz@gmail.com>"]
 license ="MIT"
 description = "An implementation of a cache that will regenerate a value if accessed after a certain amount of time."
-keywords = ["cache", "timed cache", "sessions"]
+keywords = ["cache", "timed", "sessions"]
 
 [dependencies]
