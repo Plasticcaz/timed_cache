@@ -6,6 +6,8 @@ value will remain valid once it has been written to the cache.
 If the value is missing when the user tries to retrieve a value from the `TimedCache`, or the value has outlived the 
 specified storage `Duration` of the cache, the value will be regenerated using a specified function.
 
+NOTE: In the current implementation, invalid values will remain in memory until the next time it is queried, and then a new value will be created. This may be considered a memory leak, though this was by design.
+
 ## Example:
 
 ```rust
